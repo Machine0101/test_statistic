@@ -1,0 +1,8 @@
+mu, sigma = 5, 1.3
+
+# Sample mean
+x_bar = 5.25
+
+# Calculate the test statistic
+test_stat = (x_bar - mu) / (sigma/np.sqrt(45))
+test_stat
